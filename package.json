@@ -1,0 +1,19 @@
+{
+  "name": "neon-drizzle-guide",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "db:generate": "drizzle-kit generate --dialect=postgresql --schema=src/schema.ts --out=./drizzle"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.0",
+    "@neondatabase/serverless": "^0.9.4",
+    "drizzle-orm": "^0.33.0",
+    "hono": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.24.0",
+    "tsx": "^4.7.1"
+  }
+}
