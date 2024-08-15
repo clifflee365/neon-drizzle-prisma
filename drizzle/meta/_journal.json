@@ -8,6 +8,13 @@
       "when": 1723719281654,
       "tag": "0000_classy_ezekiel",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1723720625900,
+      "tag": "0001_volatile_valkyrie",
+      "breakpoints": true
     }
   ]
 }
